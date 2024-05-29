@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "emitDecoratorMetadata": true,
+    "skipLibCheck": true,
+    "experimentalDecorators": true,
+    "lib": ["es6", "dom", "dom.iterable", "es2019", "esnext"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "target": "es6",
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "removeComments": true,
+    "importHelpers": true,
+    "resolveJsonModule": true,
+    "outDir": "dist",
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "allowJs": true,
+    "types": ["node"]
+  },
+  "include": ["src/**/*"],
+  "exclude": ["dist", "node_modules/**/*", "src/**/*.test.tsx", "src/**/*.stories.tsx"]
+}
